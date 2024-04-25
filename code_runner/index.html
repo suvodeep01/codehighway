@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Css Js Runner</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font-awesome cdn -->
+    <script src="https://kit.fontawesome.com/378f0a950b.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <div class="runner">
+        <div class="container-fluid">
+            <h2>HTML, CSS, JavaScript Runner</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- html code -->
+                    <div class="html-code">
+                        <label><i class="fa fa-html5" aria-hidden="true"></i> HTML</label>
+                        <textarea id="html-code"></textarea>
+                    </div>
+                    <!-- css code -->
+                    <div class="html-code">
+                        <label><i class="fa fa-css3" aria-hidden="true"></i> CSS</label>
+                        <textarea id="css-code"></textarea>
+                    </div>
+                    <!-- JavaScript code -->
+                    <div class="html-code">
+                        <label><i class="fab fa-js"></i> JavaScript</label>
+                        <textarea id="js-code"></textarea>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- show output -->
+                    <div class="output">
+                        <label><span id="left"><i class="fa fa-laptop" aria-hidden="true"></i> Output</span><span id="right" onclick="run()"><i class="fas fa-play"></i> Run</span>
+                        </label>
+                        <iframe id="output"></iframe>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
