@@ -12,7 +12,7 @@ textarea{
     width: 100%;
     color: #fff;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 label{
@@ -38,11 +38,12 @@ iframe{
 h2{
     text-align: center;
     margin: 15px 0px;
+    color: #fff;
 }
 
 /* class, id properties */
 .runner{
-    padding: 10px 0px;
+    padding-bottom: 10px;
 }
 
 .html-code{
@@ -58,7 +59,7 @@ h2{
     float: right;
     height: 35px;
     width: 100px;
-    background-color: green;
+    background-color: #62338F;
     text-align: center;
     line-height: 35px;
     border-radius: 5px;
@@ -68,6 +69,6 @@ h2{
 
 
 #right:hover{
-    background-color: rgb(2, 98, 2);
+    background-color: #F07822;
     transition: 0.5s;
 }
